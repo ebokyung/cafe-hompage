@@ -1,0 +1,48 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+#navbar {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: fixed;
+}
+
+#navbar__logo {
+  display: inline-block;
+  width: 50px;
+  margin: auto;
+}
+
+#navbar__link {
+  width: 450px;
+  margin: auto;
+}
+
+#navbar__link li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0px 15px;
+}
+
+#navbar__link li a {
+  color: darkgray;
+  text-decoration: none;
+}
+
+#navbar__link li a:hover {
+  color: black;
+}
+
+#navbar__login-icon {
+  width: 50px;
+  margin: auto;
+  text-align: center;
+}
