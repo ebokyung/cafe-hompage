@@ -24,22 +24,22 @@ html {
 }
 
 #navbar__link {
-  width: 450px;
+  width: 500px;
   margin: auto;
 }
 
-#navbar__link li {
+#navbar__link ul li {
   display: inline-block;
   list-style-type: none;
   padding: 0px 15px;
 }
 
-#navbar__link li a {
+#navbar__link ul li a {
   color: darkgray;
   text-decoration: none;
 }
 
-#navbar__link li a:hover {
+#navbar__link ul li a:hover {
   color: black;
 }
 
